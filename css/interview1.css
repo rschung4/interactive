@@ -1,9 +1,66 @@
 /*FREE STYLE!*/
 body {
-  background: #587E20;
+  background: white;
   /* The above is called a hex code.
      There are two other ways to do colors in CSS: rgb and common names
      Find "Digital Color Meter" on your computer to explore more */
-  color: white;
+  color: grey;
   font-size: 22px;
+}
+
+#container {
+  max-width: 650px;
+  /* I put "max-width" rather than "width" because
+     if the screen width is less than 650px, it will shrink accordingly. */
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Sans serif", Helvetica, Arial, sans-serif;
+}
+
+a:active{
+  color: pink;
+}
+
+a:hover{
+  color: lawngreen;
+}
+
+a:visited{
+  color:mediumvioletred;
+}
+
+h2{
+  color:pink;
+}
+
+
+#table-of-contents {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  /* a background color might help it be differentiated from the rest */
+  background: white;
+  /* that means you'll have to change the color of the text */
+  color: #587E20;
+  /* some padding might make it look better */
+  padding: 1em;
+  /* maybe making the font size here smaller will help too */
+  font-size: 0.7em;
+}
+
+
+#table-of-contents a {
+  color: #587E20;
+  text-decoration: none;
+}
+
+#table-of-contents a:hover {
+  color: black;
+}
+
+
+img.profile {
+  max-width: 150px;
 }
