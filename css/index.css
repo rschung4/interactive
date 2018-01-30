@@ -13,3 +13,11 @@ hr {
   width: 500px;
   margin: 2em 0;
 }
+
+::selection {
+  background: lawngreen;
+}
+
+#container p {
+  background: yellow;
+}
