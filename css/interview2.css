@@ -1,5 +1,94 @@
 /*COPY WEBSITE*/
+  span {
+      background: lightblue;
+      color:  #808080;
+      /* or pick a different color */
+    }
 
-body {
-  background: lime;
+    body {
+      background: white
+      ;
+      /* The above is called a hex code.
+         There are two other ways to do colors in CSS: rgb and common names
+         Find "Digital Color Meter" on your computer to explore more */
+      color: #404040;
+      font-size: 22px;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+
+    #container {
+      max-width: 600px;
+      /* I put "max-width" rather than "width" because
+         if the screen width is less than 650px, it will shrink accordingly. */
+      margin: 0 auto;
+    }
+
+    a:hover{
+      background:lightskyblue;
+      color: #808080;
+    }
+
+    a:visited{
+      color:pink;
+    }
+
+    a {
+      color: #404040;
+      text-decoration: none;
+      /* By default, links are blue and have an underline.
+         The above CSS changes both those things. */
+    }
+
+    h2{
+      color:#66b3ff;
+      font-family: -apple-system,BlinkMacSystemFont,"Roboto",Helvetica,sans-serif;
+    }
+
+    h1{
+      color:#66b3ff;
+      font-family: -apple-system,BlinkMacSystemFont,"Roboto",Helvetica,sans-serif;
+    }
+
+    hr{
+      color:#66b3ff;
+      width: align="60% right";
+      width: align="60% left";
+    }
+
+    #table-of-contents {
+      position: fixed;
+      top: 3em;
+      left: 3em;
+      /* a background color might help it be differentiated from the rest */
+      background: white;
+      /* that means you'll have to change the color of the text */
+      color: #587E20;
+      /* some padding might make it look better */
+      padding: 1em;
+      /* maybe making the font size here smaller will help too */
+      font-size: 0.7em;
+    }
+
+    #table-of-contents a {
+      color: #587E20;
+      text-decoration: none;
+    }
+
+    #table-of-contents a:hover {
+      color: black;
+    }
+
+    #table-of-contents ul {
+      padding: 0;
+      list-style-type: none;
+      /* you could also change the type of bullet with the above declaration! */
+    }
+
+
+    figcaption {
+      font-size: 0.7em;
+    }
+    figure{
+      top: 3em;
+      left: 3em;
     }
