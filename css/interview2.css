@@ -1,7 +1,9 @@
 /*COPY WEBSITE*/
   span {
-      background: lightblue;
-      color:  #808080;
+      color:  #66b3ff;
+      text-decoration: underline;
+      text-decoration-color: #66b3ff
+      text-decoration-style: solid
       /* or pick a different color */
     }
 
@@ -14,6 +16,7 @@
       color: #404040;
       font-size: 22px;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      text-align: left;
     }
 
     #container {
