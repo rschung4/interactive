@@ -24,9 +24,10 @@ body {
   margin: 0 auto;
 }
 
-
 a:hover{
+  background: lawngreen;
   color: lawngreen;
+
 }
 
 a:visited{
@@ -39,13 +40,6 @@ a {
   text-shadow: 2px 2px limegreen;
   /* By default, links are blue and have an underline.
      The above CSS changes both those things. */
-}
-
-h1{
-  border: 25px mediumturquoise;
-  padding: 25px;
-  width: 800px;
-  margin: 25px;
 }
 
 h2{
@@ -86,8 +80,4 @@ h2{
 
 figcaption {
   font-size: 0.7em;
-}
-
-img.profile {
-  max-width: 150px;
 }
