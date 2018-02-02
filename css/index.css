@@ -34,3 +34,7 @@ a {
   /* By default, links are blue and have an underline.
      The above CSS changes both those things. */
 }
+
+a:visited{
+  color:orange;
+}
