@@ -1,45 +1,62 @@
 /*FREE STYLE!*/
+span {
+  background: #ffc966;
+  color: navy;
+  /* or pick a different color */
+}
+
 body {
-  background: white;
+  background: lightsalmon
+  ;
   /* The above is called a hex code.
      There are two other ways to do colors in CSS: rgb and common names
      Find "Digital Color Meter" on your computer to explore more */
-  color: grey;
+  color: navy;
   font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #container {
-  max-width: 650px;
+  max-width: 750px;
   /* I put "max-width" rather than "width" because
      if the screen width is less than 650px, it will shrink accordingly. */
   margin: 0 auto;
 }
 
-body {
-  font-family: "Sans serif", Helvetica, Arial, sans-serif;
-}
-
-a:active{
-  color: pink;
-}
 
 a:hover{
   color: lawngreen;
 }
 
 a:visited{
-  color:mediumvioletred;
+  color:mediumblue;
+}
+
+a {
+  color: lightskyblue;
+  text-decoration: none;
+  text-shadow: 2px 2px limegreen;
+  /* By default, links are blue and have an underline.
+     The above CSS changes both those things. */
+}
+
+h1{
+  border: 25px mediumturquoise;
+  padding: 25px;
+  width: 800px;
+  margin: 25px;
 }
 
 h2{
-  color:pink;
+  color:magenta;
+  text-shadow: 2px 2px maroon;
 }
 
 
 #table-of-contents {
   position: fixed;
-  top: 1em;
-  left: 1em;
+  top: 3em;
+  left: 3em;
   /* a background color might help it be differentiated from the rest */
   background: white;
   /* that means you'll have to change the color of the text */
@@ -50,7 +67,6 @@ h2{
   font-size: 0.7em;
 }
 
-
 #table-of-contents a {
   color: #587E20;
   text-decoration: none;
@@ -60,6 +76,16 @@ h2{
   color: black;
 }
 
+#table-of-contents ul {
+  padding: 0;
+  list-style-type: none;
+  /* you could also change the type of bullet with the above declaration! */
+}
+
+
+figcaption {
+  font-size: 0.7em;
+}
 
 img.profile {
   max-width: 150px;
