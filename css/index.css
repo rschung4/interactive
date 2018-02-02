@@ -21,3 +21,16 @@ hr {
 #container p {
   background: yellow;
 }
+
+a:hover{
+  background: lawngreen;
+  color: forestgreen;
+}
+
+a {
+  color: magenta;
+  text-decoration: none;
+  text-shadow: 1px 1px red;
+  /* By default, links are blue and have an underline.
+     The above CSS changes both those things. */
+}
