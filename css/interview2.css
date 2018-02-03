@@ -35,8 +35,8 @@
       color:pink;
     }
 
-    a {
-      color: #404040;
+    a{
+      color: #cccccc;
       text-decoration: none;
       /* By default, links are blue and have an underline.
          The above CSS changes both those things. */
@@ -65,7 +65,7 @@
       /* a background color might help it be differentiated from the rest */
       background: white;
       /* that means you'll have to change the color of the text */
-      color: #587E20;
+      color: black;
       /* some padding might make it look better */
       padding: 1em;
       /* maybe making the font size here smaller will help too */
@@ -73,7 +73,7 @@
     }
 
     #table-of-contents a {
-      color: #587E20;
+      color: #cccccc;
       text-decoration: none;
     }
 
@@ -83,7 +83,7 @@
 
     #table-of-contents ul {
       padding: 0;
-      list-style-type: none;
+      list-style-type: !;
       /* you could also change the type of bullet with the above declaration! */
     }
 

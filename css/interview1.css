@@ -52,7 +52,7 @@ h2{
   top: 3em;
   left: 3em;
   /* a background color might help it be differentiated from the rest */
-  background: white;
+  background: #ccff99;
   /* that means you'll have to change the color of the text */
   color: #587E20;
   /* some padding might make it look better */
