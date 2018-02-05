@@ -1,17 +1,18 @@
 body {
   background:  #7fff00;
+  /*lawngreen*/
   height: 10000px;
-  width: 1000px:
+  width: 4000px:
 }
 
 /* Main Title */
 
 p.title {
-  color: #ff9999;
+  color: white;
   margin-left: 800px;
   font-size: 0.8em;
   user-select: none;
-  font-family: helvetica;
+  font-family: Times;
 }
 
 a#dyke {
@@ -34,7 +35,7 @@ p.second {
   font-family: "Palatino Linotype", "Book Antiqua", serif
   color: grey;
   font-size: 50px;
-  margin-left: 200px;
+  padding-left: 250px;
   margin-right:250px;
   padding-top:300px;
 }
@@ -45,7 +46,8 @@ a#faggg:hover{
 }
 
 a#faggg {
-  color: #ff9933;
+  color: #7fff00;
+  /*pink*/
   text-decoration: none;
 }
 
@@ -72,7 +74,8 @@ span:hover{
 
 a#leukemia:hover{
   font-size: 40px;
-  color: #33ccff;
+  color: #990000;
+  /*dark red*/
   text-decoration: none;
 }
 
@@ -90,7 +93,7 @@ a#leukemia{
 }
 
 #lesser-evils:hover{
-  color:red;
+  color:#ff8080;
 }
 
 #lovers:hover{
@@ -107,6 +110,66 @@ a#leukemia{
 
 /*Fifth Line*/
 
-#welfare {
-  padding-top: 200px;
+marquee{
+  padding-top: 150px;
+}
+
+h3{
+  color:#8080ff;
+  font-size: 1.5em;
+}
+
+a#welfare:hover{
+  color: red;
+}
+
+a#welfare{
+  color: #ff00ff;
+}
+
+
+/*Sixth Line - assault*/
+
+#welfare{
+  padding-top: 600px;
+  padding-left: 500px;
+}
+
+a#inlove{
+  color:#ff0066;
+}
+
+#respect{
+  color:#ff9900;
+}
+
+#pre-civil{
+  padding-top:50px;
+  padding-left:500px;
+  color:lightpink;
+}
+
+#civil{
+  font-size:0.8em;
+  padding-left: 500px;
+  padding-top:200px;
+  color:lawngreen;
+}
+
+#civil:hover{
+  font-size: 32px;
+  color:#ff6600;
+}
+
+
+/*CONCLUSION*/
+
+#conclusion{
+  color:#993399;
+  padding-left:900px;
+  padding-right:500px;
+}
+
+h5{
+  font-size: 0.7em;
 }
