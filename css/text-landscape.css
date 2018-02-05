@@ -1,0 +1,112 @@
+body {
+  background:  #7fff00;
+  height: 10000px;
+  width: 1000px:
+}
+
+/* Main Title */
+
+p.title {
+  color: #ff9999;
+  margin-left: 800px;
+  font-size: 0.8em;
+  user-select: none;
+  font-family: helvetica;
+}
+
+a#dyke {
+  color:  #7fff00;
+  text-decoration: none;
+}
+
+a#dyke:hover{
+  color: #ff4da6;
+}
+
+a#dyke:visited{
+  color: darkgreen;
+}
+
+
+/* Second line of poem! */
+
+p.second {
+  font-family: "Palatino Linotype", "Book Antiqua", serif
+  color: grey;
+  font-size: 50px;
+  margin-left: 200px;
+  margin-right:250px;
+  padding-top:300px;
+}
+
+a#faggg:hover{
+  color:lightblue;
+  text-decoration: none;
+}
+
+a#faggg {
+  color: #ff9933;
+  text-decoration: none;
+}
+
+
+
+/*Third line of poem*/
+
+p.third {
+  font-size: 0.8em;
+  font-family:"Courier New", Courier, monospace;
+  alignment: middle;
+  padding-top:200px;
+  color: red;
+}
+
+span {
+  color:#80ff80;
+  /*seafoam*/
+  background: #80ff80;
+}
+span:hover{
+  color:red;
+}
+
+a#leukemia:hover{
+  font-size: 40px;
+  color: #33ccff;
+  text-decoration: none;
+}
+
+a#leukemia{
+  color: #80ff80;/*seafoam*/
+  text-decoration: none;
+}
+
+
+/* -FOURTH LINE- LESSER EVILS */
+
+#lesser-evils{
+  color: white;
+  padding-top:10px;
+}
+
+#lesser-evils:hover{
+  color:red;
+}
+
+#lovers:hover{
+  color:pink;
+  text-align: center;
+}
+
+#lovers{
+  color:darkred;
+  text-decoration:none;
+  margin-left: 400px;
+}
+
+
+/*Fifth Line*/
+
+#welfare {
+  padding-top: 200px;
+}

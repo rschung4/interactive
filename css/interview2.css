@@ -1,6 +1,6 @@
 /*COPY WEBSITE*/
 span {
-  color:  black;
+  color: #404040;
   text-decoration: underline;
   text-decoration-color: #66b3ff;
   text-decoration-style: solid;
@@ -29,12 +29,8 @@ a:hover{
   color: #66b3ff;
 }
 
-a:visited{
-  color:#00ace6;
-}
-
 a{
-  color: #cccccc;
+  color: lightgrey;
   text-decoration: none;
   /* By default, links are blue and have an underline.
      The above CSS changes both those things. */
@@ -47,7 +43,7 @@ h2{
 
 h1{
   color:#66b3ff;
-  font-family: -apple-system,BlinkMacSystemFont,"Roboto",Helvetica,sans-serif;
+  font-family: -apple-system,"Roboto",Helvetica,sans-serif;
 }
 
 hr{
