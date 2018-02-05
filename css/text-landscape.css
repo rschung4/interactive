@@ -21,12 +21,9 @@ a#dyke {
 }
 
 a#dyke:hover{
-  color: #ff4da6;
+  color: lightpink;
 }
 
-a#dyke:visited{
-  color: darkgreen;
-}
 
 
 /* Second line of poem! */
