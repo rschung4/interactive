@@ -47,11 +47,7 @@ body {
 	border-radius:50%;
 	top: -1em;
 	left:44%;
-	-webkit-animation-name: flicker;
-	-webkit-animation-duration: 0.33s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-timing-function: ease-in-out;
+	animation: flicker 1s ease-out infinite alternate;
 }
 
 #candle #flame 0% {
@@ -82,7 +78,7 @@ body {
 	position: absolute;
 	bottom: 14em;
 	right:46em;
-	z-index:-1:
+	box-shadow: inset 0 -3px 10px #00000042;
 }
 
 #orange {
@@ -93,6 +89,7 @@ body {
     bottom: 11em;
     right: 39em;
     background: #ff8533; /*orange*/
+		box-shadow: inset 0 -3px 20px #00000042;
 }
 
 #vase{
@@ -187,6 +184,7 @@ body {
   bottom: 20em;
   right: 39em;
   background: #ff8533; /*orange*/
+	box-shadow: inset 0 -3px 20px #00000042;
 }
 
 #lamp{
@@ -209,7 +207,7 @@ body {
 	position: absolute;
 	bottom: 12em;
 	right:30em;
-	z-index:-1:
+	box-shadow: inset 0 -3px 10px #00000042;
 }
 
 /* LAMP GLOW*/
