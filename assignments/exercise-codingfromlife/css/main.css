@@ -47,6 +47,23 @@ body {
 	border-radius:50%;
 	top: -1em;
 	left:44%;
+	-webkit-animation-name: flicker;
+	-webkit-animation-duration: 0.33s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;
+}
+
+#candle #flame 0% {
+    transform: rotate(3deg);
+    opacity: 1;
+    padding-top: .125em;
+}
+
+#candle #flame 100% {
+    transform: rotate(-3deg);
+    opacity: .85;
+    padding-top: 0;
 }
 
 #candle #wax-top{
@@ -63,7 +80,7 @@ body {
 	border-radius: 50%;
 	background:#556b2f;
 	position: absolute;
-	bottom: 12em;
+	bottom: 14em;
 	right:46em;
 	z-index:-1:
 }
@@ -119,10 +136,10 @@ body {
     height: 80px;
     position: relative;
     text-align: center;
-    -webkit-transform: rotate(20deg);
-       -moz-transform: rotate(20deg);
-        -ms-transform: rotate(20deg);
-         -o-transform: rotate(20eg);
+	  -webkit-transform: rotate(20deg);
+   	-moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20eg);
 }
 
 #rose #flower:before {
@@ -134,9 +151,9 @@ body {
     width: 80px;
     background: red;
     -webkit-transform: rotate(135deg);
-       -moz-transform: rotate(135deg);
-        -ms-transform: rotate(135deg);
-         -o-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
 }
 
 #stem{
@@ -148,7 +165,17 @@ body {
 	transform: rotate(15deg);
 }
 
-
+#wrapping{
+	bottom: -2em;
+  border-top: 5em solid rgba(255,255,255, 0.2);
+  border-right: 37em solid transparent;
+  border-left: 3em solid transparent;
+  height: 0;
+  width: 5em;
+  left: 0em;
+  bottom: 11em;
+  transform: rotate(200deg);
+}
 
 /* DRAWING TWO */
 
@@ -165,7 +192,7 @@ body {
 #lamp{
 	width: 175px;
 	height: 150px;
-	background: #ffffcc;
+	background: rgb(242, 252, 167);
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 200px /111px;
@@ -231,6 +258,17 @@ body {
 	bottom: 20em;
 	left: 2.8em;
 	transform: rotate(17deg);
+}
+
+#wrapping-two{
+	bottom: -2em;
+	border-top: 5em solid rgba(255,255,255, 0.2);
+	border-right: 37em solid transparent;
+	border-left: 3em solid transparent;
+	height: 0;
+	width: 5em;
+	bottom: 19.5em;
+	transform: rotate(200deg);
 }
 
 /* EXAMPLES OF OTHER SHAPES...
