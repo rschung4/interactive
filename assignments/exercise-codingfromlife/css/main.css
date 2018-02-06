@@ -1,0 +1,266 @@
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	position: relative;
+	z-index:-2;
+	/* "z-index" this is to control layering...the more negative the more back it goes*/
+}
+
+.canvas.one{
+	background: rgb(78, 147, 83);
+}
+.canvas.two{
+	background:#864313;
+}
+
+/* STILL LIFE */
+
+.object{
+	position: absolute;
+}
+
+#candle{
+	width: 4em;
+	height: 6em;
+	border: 5px rgba(255,255,255,0.2);
+	bottom: 16em;
+	right:38em;
+	background: rgba(255,255,255,0.2);
+}
+
+#candle #wax{
+	background:#cc0000;
+	width:100%;
+	height: 70%;
+	bottom:0;
+}
+
+#candle #flame{
+	background:yellow;
+	width: 13%;
+	height: 25%;
+	border-radius:50%;
+	top: -1em;
+	left:44%;
+}
+
+#candle #wax-top{
+	background:#ff6666;
+	width: 100%;
+	height: 20%;
+	border-radius: 50%;
+	top: 20%;
+}
+
+#kiwi{
+	height:4em;
+	width: 5em;
+	border-radius: 50%;
+	background:#556b2f;
+	position: absolute;
+	bottom: 12em;
+	right:46em;
+	z-index:-1:
+}
+
+#orange {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 11em;
+    right: 39em;
+    background: #ff8533; /*orange*/
+}
+
+#vase{
+	/*border: 1px solid white;*/
+	bottom: 13em;
+	left: 25em;
+	width: 11em;
+	height:12em;
+}
+
+#vase #top{
+	border-bottom: 6em solid rgb(250,250,250);
+	border-left: 3em solid transparent;
+	border-right: 3em solid transparent;
+	height: 0;
+	width: 6em;
+}
+
+#vase #middle{
+	width:12em;
+	height: 20px;
+	background: rgb(240,240,240);
+}
+
+#vase #bottom{
+	border-top: 6em solid rgb(230,230,230);
+	border-left: 3em solid transparent;
+	border-right: 3em solid transparent;
+	height: 0;
+	width: 6em;
+}
+
+#rose{
+	bottom: 5em;
+	left: 40em;
+}
+
+#rose #flower{
+    background: red;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+}
+
+#rose #flower:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: red;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+#stem{
+	width: 660px;
+	height: 10px;
+	background: #006600;
+	bottom: 11.5em;
+	left: 3.5em;
+	transform: rotate(15deg);
+}
+
+
+
+/* DRAWING TWO */
+
+#orange-two{
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20em;
+  right: 39em;
+  background: #ff8533; /*orange*/
+}
+
+#lamp{
+	width: 175px;
+	height: 150px;
+	background: #ffffcc;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 200px /111px;
+	bottom: 15em;
+	right: 30em;
+	-webkit-animation: GLOW 60s infinite;
+}
+
+#kiwi-two{
+	height:4em;
+	width: 5em;
+	border-radius: 50%;
+	background: #331a00;
+	position: absolute;
+	bottom: 12em;
+	right:30em;
+	z-index:-1:
+}
+
+/* LAMP GLOW*/
+@-webkit-keyframes GLOW {
+  0% { box-shadow:0 0 8px yellow, inset 0 0 8px yellow; }
+  50% { box-shadow:0 0 75px yellow, inset 0 0 75px yellow; }
+  100% { box-shadow:0 0 8px yellow, inset 0 0 8px yellow; }
+}
+
+
+#rose-two{
+	bottom: 11.5em;
+	left: 40em;
+}
+
+#rose-two #flower-two{
+    background: red;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+}
+
+#rose-two #flower-two:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: red;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+#stem-two{
+	width: 660px;
+	height: 10px;
+	background: #006600;
+	bottom: 20em;
+	left: 2.8em;
+	transform: rotate(17deg);
+}
+
+/* EXAMPLES OF OTHER SHAPES...
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+}
+
+#square {
+	width: 200px;
+	height: 200px;
+	background: red;
+	top: 160px;
+	left: 350px;
+	position: absolute;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 160px;
+	left: 600px;
+	position: absolute;
+}*/
