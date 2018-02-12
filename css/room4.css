@@ -1,5 +1,5 @@
 body{
-  background: #99ccff;/*felix blue*/
+  background: #66ff66;/*felix blue*/
 }
 
 a:hover{
@@ -11,15 +11,15 @@ a:active{
 }
 
 .canvas {
-  width: 900px;
-  height: 556px;
+  width: 10000px;
+  height: 5000px;
   margin: 100px auto;
   position: relative;
   /* z-index:-2; */
   /* "z-index" this is to control layering...the more negative the more back it goes*/
 }
 .canvas.one{
-	background: #99ccff;
+	background: #66ff66;
 }
 .object{
   position: absolute;
