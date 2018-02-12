@@ -1,0 +1,40 @@
+body{
+  background: #cce6ff;/*felix blue*/
+}
+
+.canvas {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  position: relative;
+  /* z-index:-2; */
+  /* "z-index" this is to control layering...the more negative the more back it goes*/
+}
+.canvas.one{
+	background: #cce6ff;
+}
+.object{
+  position: absolute;
+}
+
+#sun {
+	width: 500px;
+	height: 500px;
+	background: #ff661a;/*red*/
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+  -webkit-animation: GLOW 6s infinite;
+}
+#sun {
+	top: 3em;
+	left:30%;
+}
+
+/* SUN GLOW */
+
+@-webkit-keyframes GLOW {
+  0% { box-shadow:0 0 8px red, inset 0 0 8px red; }
+  50% { box-shadow:0 0 75px red, inset 0 0 75px red; }
+  100% { box-shadow:0 0 8px red, inset 0 0 8px red; }
+}

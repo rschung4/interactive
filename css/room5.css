@@ -1,0 +1,26 @@
+body{
+  background: #99ccff;/*felix blue*/
+}
+
+a:hover{
+  color: blue;
+}
+
+a:active{
+  color: pink;
+}
+
+.canvas {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  position: relative;
+  /* z-index:-2; */
+  /* "z-index" this is to control layering...the more negative the more back it goes*/
+}
+.canvas.one{
+	background: #99ccff;
+}
+.object{
+  position: absolute;
+}
