@@ -64,7 +64,7 @@ That’s a really great question. I am very excited about conservation and envir
 
 **It’s cool that cacao has been around for thousands of years and the Aztecs knew how to cultivate it as a food source, chocolate. It’s also cool that you see plants as active participants in the environment. A lot of people have plant blindness. Can you talk about that?**
 
-I have a great love of plants, but I don’t think many share my passion. I think that if asked directly, a lot of people would say that the wilderness is beautiful or that a green space feels happy or peaceful, helping you to relax. But plants are around you all the time, even when you’re not aware of their presence. I think a lot of people don’t pay attention and everything sort of blends together as one green mass. But plants are really unique as individuals. They have a lot of different features that make them special or unique to their environment. I think you have to take a minute to recognize and appreciate that. 
+_I have a great love of plants, but I don’t think many share my passion. I think that if asked directly, a lot of people would say that the wilderness is beautiful or that a green space feels happy or peaceful, helping you to relax. But plants are around you all the time, even when you’re not aware of their presence. I think a lot of people don’t pay attention and everything sort of blends together as one green mass. But plants are really unique as individuals. They have a lot of different features that make them special or unique to their environment. I think you have to take a minute to recognize and appreciate that._
 
 
 
