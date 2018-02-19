@@ -1,0 +1,34 @@
+  body {
+  	background: white;
+  }
+
+  .canvas {
+  	width: 900px;
+  	height: 556px;
+  	margin: 100px auto;
+  	position: relative;
+  	z-index:-2;
+  	/* "z-index" this is to control layering...the more negative the more back it goes*/
+  }
+
+  .canvas.one{
+  	background:white;
+  }
+
+.object{
+  	position: absolute;
+  }
+
+#rock{
+  top: 20%;
+  left: 20%;
+}
+
+a{
+  z-index: 100;
+}
+
+p{
+  font-family: helvetica;
+  color: lightgrey;
+}
