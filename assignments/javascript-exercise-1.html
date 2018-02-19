@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+   <title>Title title title</title>
+   <meta charset="utf-8">
+
+   <style>
+    body {
+      background: lightblue;
+      color: white;
+      font-size: 72px;
+    }
+   </style>
+
+ </head>
+
+
+ <body>
+   Content content content
+   <!-- JavaScript goes right before the the body ends! -->
+
+   <script type="text/javascript">
+     // Your code goes here
+     //alert("Hello World!"); opens alert when you go to webpage
+
+     var name = "Rosa Chung";
+     var year = "2018";
+     var introduction = "Hi, I'm " + name + ", and I graduate in " + year;
+     console.log(introduction);
+
+
+     /*function hello() {
+       //do something
+       var greeting = "Hello, it's ";
+       var date = new Date();
+       alert(greeting + date);
+     }*/
+
+
+    function hello(person) {
+      var greeting = "Hello, " + person + "! It's ";
+      var date = new Date();
+      alert(greeting + date);
+    }
+
+        hello("Rosa");
+        hello("Laurel");
+        hello("Matt");
+
+     //console.log("Hello World" + introduction);
+     // this will show up as web inspector, to make sure where it's working
+
+
+     //semi colon after each line is super important
+
+     /* here is a
+     multi
+     line comment*/
+   </script>
+
+ </body>
+</html>
