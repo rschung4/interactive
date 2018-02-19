@@ -20,7 +20,7 @@ But it was so cool to see all the ways chocolate was being used: one chef even m
 
 **How did chocolate influence your studies now and how has it stayed with you in your life?**
 
-Chocolate was the starting point for my career, as it is today. It was what got me into botany and into plants in general. I always had a passing interest in the environment, but chocolate really introduced me to plant biology. Since then my interests have morphed; I do a lot of ecological work, particularly in the savanna. But right now, I’m in an archeology course about Aztec history, largely because of the civilization’s role in the discovery and use of this plant. I have a huge soft spot for chocolate still, and it remains a large interest of mine. 
+_Chocolate was the starting point for my career, as it is today. It was what got me into botany and into plants in general. I always had a passing interest in the environment, but chocolate really introduced me to plant biology. Since then my interests have morphed; I do a lot of ecological work, particularly in the savanna. But right now, I’m in an archeology course about Aztec history, largely because of the civilization’s role in the discovery and use of this plant. I have a huge soft spot for chocolate still, and it remains a large interest of mine._
 
 
 
@@ -64,13 +64,13 @@ That’s a really great question. I am very excited about conservation and envir
 
 **It’s cool that cacao has been around for thousands of years and the Aztecs knew how to cultivate it as a food source, chocolate. It’s also cool that you see plants as active participants in the environment. A lot of people have plant blindness. Can you talk about that?**
 
-_I have a great love of plants, but I don’t think many share my passion. I think that if asked directly, a lot of people would say that the wilderness is beautiful or that a green space feels happy or peaceful, helping you to relax. But plants are around you all the time, even when you’re not aware of their presence. I think a lot of people don’t pay attention and everything sort of blends together as one green mass. But plants are really unique as individuals. They have a lot of different features that make them special or unique to their environment. I think you have to take a minute to recognize and appreciate that._
+_I have a great love of plants, but I don’t think many share my passion. I think that if asked directly, a lot of people would say that the wilderness is beautiful or that a green space feels happy or peaceful, helping one to relax. But plants are around you all the time, even when you’re not aware of their presence. I think a lot of people don’t pay attention and everything sort of blends together as one green mass. Plants are really unique as individuals. They have a lot of different features that make them special to their environment. I think you have to take a minute to recognize and appreciate that._
 
 
 
 **Chocolate is such a great example of a plant that brings people in and it resonates with people and their everyday lives. Are there other examples of this?**
 
-Sure. I think most plants that you eat have a really interesting history. I think that it could be said of most plants. Corn, for example, started out as a little grass. It evolved, and we evolved with it. It’s now a huge crop that dominates industry, food production, and even gasoline today. It started as a small plant that humans noticed and decided to cultivate. 
+Sure. I think most plants that you eat have a really interesting history. I think that it could be said of most plants. Corn, for example, started out as a little grass. It evolved, and we evolved with it. It’s now a huge crop that dominates industry, food production, and even gasoline today. But it started as a small plant that humans noticed and decided to cultivate. 
 
 Each apple tree is a clone of something that came before it. Each seed from an apple will give you a different tree so for those of you who like Honey Crisp or Fuji that’s because one day somebody noticed that that particular apple on that particular tree tasted really good. They decided to propagate another tree. 
 
@@ -86,7 +86,7 @@ One of the biggest questions we face today is how are we going to feed the rapid
 
 **Are there any burning plant facts you want to get off your chest? Any future plant dreams?**
 
-My ideal world is covered with vegetation and a lot less concrete. More people would recognize plants in their everyday lives, it will generally make more people happy, solve more problems, if we realize what they can do for us. 
+_My ideal world is covered with vegetation and a lot less concrete. More people would recognize plants in their everyday lives, it will generally make more people happy, solve more problems, if we realize what they can do for us._
 
 
 
