@@ -19,15 +19,17 @@
  <body>
    Content content content
    <!-- JavaScript goes right before the the body ends! -->
+   <script src="../js/jquery.min.js"></script>
 
    <script type="text/javascript">
+      //jquery goes before custom script
      // Your code goes here
      //alert("Hello World!"); opens alert when you go to webpage
 
-     var name = "Rosa Chung";
+     /* var name = "Rosa Chung";
      var year = "2018";
      var introduction = "Hi, I'm " + name + ", and I graduate in " + year;
-     console.log(introduction);
+     console.log(introduction);*/
 
 
      /*function hello() {
@@ -38,25 +40,50 @@
      }*/
 
 
-    function hello(person) {
+    /*function hello(person) {
       var greeting = "Hello, " + person + "! It's ";
       var date = new Date();
       alert(greeting + date);
     }
-
         hello("Rosa");
         hello("Laurel");
-        hello("Matt");
+        hello("Matt"); */
 
      //console.log("Hello World" + introduction);
      // this will show up as web inspector, to make sure where it's working
-
-
      //semi colon after each line is super important
 
-     /* here is a
-     multi
-     line comment*/
+
+    $(document).ready(function(){
+        console.log("Hello jQuery");
+        //all your jquery goes inside the document ready
+
+        $('body').css('background', 'blue');
+        /*$('p').css('background', 'yellow');
+        $('.special').css('font-size', '60px');
+        $('#ISBN-978').css('border', '5px dotted blue');
+        $('li a.special').css('color', 'red');*/
+
+        var size = Math.floor(Math.random() * 72) + 1;
+        console.log(size);
+        var units = "px";
+        var fontSize = size + units;
+        console.log("fontSize:" + fontSize);
+        $("body").css("font-size", fontSize);
+
+
+        // Define list of words as an array
+        var words = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'technology', 'questions', 'internet', 'web', 'art.yale.edu', 'preservation', 'primary or secondary', 'social networks', 'ubiquity', 'calm technology', 'attention', 'reliability', 'governance', 'laws', 'audience'];
+
+        // Pick a random word and store it as a variable
+        var random = words[Math.floor(Math.random()*words.length)];
+        // Add that random word variable to the HTML element with id of "outro"
+        var random_word = words[random];
+        $('body').html(random_word);
+            });
+
+
+
    </script>
 
  </body>

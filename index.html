@@ -82,6 +82,9 @@
         <br>
         <br>
 
+<div id = "button">
+  Random
+</div>
 
 <pre><.-..-. /),/).-..-.
 
@@ -91,6 +94,8 @@
 
 "-.-"00"-.-"></pre>
 
+
+<!--WEBRING START -->
 
   <table border="1" class="webring">
     <tr>
@@ -110,6 +115,38 @@
     </tr>
   </table>
 
+<!--JAVA -->
 
-  </body>
+<script src="js/jquery.min.js"></script>
+  <script type="text/javascript">
+
+
+
+  $(document).ready(function(){
+    //$('body').css('background', 'red')
+
+    $('#button').click(function(){
+      //something happens here when you click the button
+      console.log('you click the button');
+
+      //three variables for RGB, each one has to be a random number 0 --> 255
+      var red = Math.floor(Math.random() *255);
+      var green = Math.floor(Math.random() *255);
+      var blue = Math.floor(Math.random() *255);
+
+      //console.log("red:" + red);
+      //console.log("green:" + green);
+      //console.log("blue:" + blue);
+      // hopefully this outputs something like rgb (0,255,20)
+      var rgb = "rgb(" + red + "," + green + "," + blue + ")";
+      console.log(rgb);
+      $("body").css("background-color", rgb);
+    })
+
+  })
+
+</script>
+
+
+</body>
 </html>
