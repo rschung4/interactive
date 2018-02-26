@@ -1,5 +1,5 @@
 body {
-  background: mistyrose;
+  background: #ff9999; 
   font-family: helvetica;
 }
 
@@ -49,8 +49,9 @@ a:visited{
   bottom: 1em;
   right: 1em;
   padding: 1em;
-  text-align: relative;
+  text-align: center;
   cursor: pointer;
+  font-size: 15px;
 }
 
 h1 {
