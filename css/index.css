@@ -1,5 +1,6 @@
 body {
-background: mistyrose;
+  background: mistyrose;
+  font-family: helvetica;
 }
 
 .webring {
@@ -36,13 +37,13 @@ a {
 }
 
 a:visited{
-  color:orange;
+  color:blue;
 }
 
 #button{
   background: yellow;
-  width: 8em;
-  height: 8em;
+  width: 3em;
+  height: 3em;
   border-radius: 50%;
   position: fixed;
   bottom: 1em;
@@ -50,4 +51,19 @@ a:visited{
   padding: 1em;
   text-align: center;
   cursor: pointer;
+}
+
+h1 {
+  color: #595959;
+}
+
+h2 {
+  color:  #8c8c8c;
+}
+
+.container{
+  position: relative;
+  top: 5px;
+  left: 40%;
+  display: inline-block;
 }
