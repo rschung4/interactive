@@ -1,5 +1,5 @@
 body {
-  background: #ff9999; 
+  background: #ff9999;
   font-family: helvetica;
 }
 
@@ -41,8 +41,8 @@ a:visited{
 }
 
 #button{
-  background: yellow;
-  width: 3em;
+  background: lightyellow;
+  width: 5em;
   height: 3em;
   border-radius: 50%;
   position: fixed;
