@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tic Tac Toe</title>
+  <meta charset="utf-8">
+</head>
+
+  <style>
+    body{
+      background: black;
+    }
+
+    #bulb1{
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        top: 25%;
+        left: 25%;
+        z-index: 1;
+      }
+
+      #bulb2{
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        top: 25%;
+        left: 50%;
+        z-index: 1;
+        }
+
+      #bulb3{
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        top: 25%;
+        left: 75%;
+        z-index: 1;
+        }
+
+      #bulb4{
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        top: 50%;
+        left: 25%;
+        z-index: 1;
+        }
+
+      #bulb5{
+
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        }
+
+      #bulb6{
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        top: 50%;
+        left: 75%;
+        z-index: 1;
+        }
+
+      #bulb7{
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        top: 75%;
+        left: 25%;
+        z-index: 1;
+        }
+
+      #bulb8{
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        top: 75%;
+        left: 50%;
+        z-index: 1;
+        }
+
+      #bulb9{
+        width: 50px;
+        height: 50px;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+
+        top: 75%;
+        left: 75%;
+        z-index: 1;
+      }
+
+      .glow {
+        background: white!important;
+        -webkit-animation: GLOW 1s infinite;
+      }
+
+    /* SUN GLOW */
+
+      @-webkit-keyframes GLOW {
+        0% { box-shadow:0 0 8px yellow, inset 0 0 8px yellow; }
+        50% { box-shadow:0 0 75px yellow, inset 0 0 75px yellow; }
+        100% { box-shadow:0 0 8px yellow, inset 0 0 8px yellow; }
+      }
+
+      button{
+        position: fixed;
+        bottom: 75px;
+        left: 75px;
+      }
+
+      .object{
+        position: absolute;
+        background: black;
+        width: 50px;
+        height: 50px;
+      }
+
+      video {
+        width: 1500px;
+        height: 600;
+      }
+
+  </style>
+</head>
+
+
+<body>
+
+  <!-- The video -->
+  <video autoplay muted loop id="Background">
+    <source src="../images/blinking.mp4" type="video/mp4">
+  </video>
+
+  <div id="bulb1" class="object"></div>
+  <div id="bulb2" class="object"></div>
+  <div id="bulb3" class="object"></div>
+
+  <div id="bulb4" class="object"></div>
+  <div id="bulb5" class="object"></div>
+  <div id="bulb6" class="object"></div>
+
+  <div id="bulb7" class="object"></div>
+  <div id="bulb8" class="object"></div>
+  <div id="bulb9" class="object"></div>
+
+  <div id="win">YOU WIN YAY</div>
+
+  <button>Press me!!!</button>
+
+
+<script src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+
+  $(document).ready(function() {
+    alert("FUN GAME~ Press the button!");
+    var bulbs = ['bulb1', 'bulb2', 'bulb3', 'bulb4', 'bulb5', 'bulb6', 'bulb7','bulb8','bulb9'];
+
+
+    $('button').click(function() {
+      var random1 = bulbs[Math.floor(Math.random() * bulbs.length)];
+      var random2 = bulbs[Math.floor(Math.random() * bulbs.length)];
+      var random3 = bulbs[Math.floor(Math.random() * bulbs.length)];
+        console.log(random1);
+        console.log(random2);
+        console.log(random3);
+      // if random2 == random1 {generate a new var random2 number}
+      // if random3 == random2 {generate a new var random 3 number }
+        console.log("button clicked!");
+
+      $(".object").removeClass("glow");
+      $("#" + random1).addClass("glow");
+      $("#" + random2).addClass("glow");
+      $("#" + random3).addClass("glow");
+    });
+  });
+</script>
+
+</body>
+</html>
