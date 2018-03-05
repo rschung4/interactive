@@ -90,6 +90,108 @@ video{
   50% {transform: translateY(2px)}
 }
 
+#one{
+  top:70%;
+  right:40%;
+}
+
+#two{
+  top:65%;
+  right:90%;
+}
+
+#three{
+  top:90%;
+  right:70%;
+}
+
+#four{
+  top:80%;
+  right:20%;
+}
+
+.dust{
+	width: 25px;
+	height: 25px;
+	background: lawngreen;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  filter: blur(5px);
+  position: fixed;
+}
+
+#leaf1{
+  border-radius: 5px 300px 3px 300px;
+  background: #5900b3;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  display: inline-block;
+  top: 80%;
+  left: 8%;
+  transform: rotate(45deg);
+}
+
+#leaf2{
+  border-radius: 5px 300px 3px 300px;
+  background: #5900b3;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  display: inline-block;
+  top: 80%;
+  left: 15%;
+  transform: rotate(90deg);
+}
+
+#leaf3{
+  border-radius: 5px 300px 3px 300px;
+  background: #5900b3;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  display: inline-block;
+  top: 80%;
+  right: 88%;
+}
+
+#leaf4{
+  border-radius: 5px 300px 3px 300px;
+  background: #0000ff;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  display: inline-block;
+  top: 40%;
+  right: 25%;
+  transform: rotate(45deg);
+}
+
+#leaf5{
+  border-radius: 5px 300px 3px 300px;
+  background: #0000ff;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  display: inline-block;
+  top: 45%;
+  right: 20%;
+  transform: rotate(90deg);
+}
+
+#leaf6{
+  border-radius: 5px 300px 3px 300px;
+  background: #0000ff;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  display: inline-block;
+  top: 45%;
+  right: 30%;
+}
+
+
 /* NEW CLASSES AFTER BUTTON CLICK */
 
 #stem.light, .petal.light{
@@ -115,8 +217,8 @@ video{
   margin:80px auto;
   width: 60px;
   height: 60px;
-  bottom: -20em;
-  left: 20%;
+  bottom: -32em;
+  left: 10%;
   position:relative;
   transform-origin:center bottom;
   animation-name: flicker;
