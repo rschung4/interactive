@@ -191,7 +191,13 @@ video{
   right: 30%;
 }
 
+#tree1{
+  position: absolute;
+}
 
+#tree2{
+  position: absolute;
+}
 /* NEW CLASSES AFTER BUTTON CLICK */
 
 #stem.light, .petal.light{
