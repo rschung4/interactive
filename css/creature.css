@@ -75,7 +75,7 @@ video{
 }
 
 .petal {
-  position: absolute;
+  position: fixed;
   width: 200px;
   height: 100px;
   background: black;
