@@ -1,0 +1,194 @@
+/* BACKGROUND - NORMAL STATE */
+
+body {
+  background: #004d00;
+  height: 100%;
+  display: block;
+}
+
+#ground{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40vh;
+  background: #6666ff;
+  transition: all 300ms ease-in;
+}
+
+button{
+  position: fixed;
+  top: 3em;
+  right: 3em;
+  width: 3em;
+  height: 3em;
+  background: white;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.5em;
+  box-shadow: 0 0 2.25em 0.5em #aaa;
+}
+
+video{
+  height: 100;
+  width: 1600px;
+  position: fixed;
+  top: 0;
+}
+
+#organism1{
+  top: 95%;
+  right: -1em;
+  transform: rotate(-60deg);
+  animation: voaa 1s infinite alternate ease-in-out;
+  transform-style: preserve-3d;
+  transform: rotate(-23deg);
+}
+
+#organism2{
+  top: 90%;
+  right: 30;
+  animation: voaa 1s infinite alternate ease-in-out;
+  transform-style: preserve-3d;
+  transform: rotateX(-60deg);
+}
+
+#organism3{
+  top: 40%;
+  right: 30;
+  transform: rotate(-33deg);
+  animation: voaa 1s infinite alternate ease-in-out;
+  transform-style: preserve-3d;
+  transform: rotate(-33deg);
+}
+
+#stem{
+	width: 20px;
+	height: 70%;
+	background: black;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 15%;
+  right: 60%;
+  transition: all 300ms ease-in;
+}
+
+.petal {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: black;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  transition: all 300ms ease-in;
+}
+
+@keyframes voaa {
+  0% {transform: translateY(0px)}
+  50% {transform: translateY(2px)}
+}
+
+/* NEW CLASSES AFTER BUTTON CLICK */
+
+#stem.light, .petal.light{
+  background: lawngreen;
+  padding: 4em;
+  border-radius: 250px / 210px;
+  transition: all 300ms ease-in;
+}
+
+#ground.groundlight {
+  background: #ffe866;
+  transition: all 300ms ease-in;
+}
+
+#stem.gradient, .petal.gradient, #ground.gradient {
+  background: linear-gradient(red, yellow);
+  transition: all 300ms ease-in;
+}
+
+/* FLAME BUTTON */
+
+.container{
+  margin:80px auto;
+  width: 60px;
+  height: 60px;
+  bottom: -20em;
+  left: 20%;
+  position:relative;
+  transform-origin:center bottom;
+  animation-name: flicker;
+  animation-duration:3ms;
+  animation-delay:200ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+.flame{
+  bottom:0;
+  position:absolute;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  transform:rotate(-45deg) scale(1.5,1.5);
+}
+
+.yellow{
+  left:15px;
+  width: 30px;
+  height: 30px;
+  background:gold;
+  box-shadow: 0px 0px 9px 4px gold;
+}
+
+.orange{
+  left:10px;
+  width: 40px;
+  height: 40px;
+  background:orange;
+  box-shadow: 0px 0px 9px 4px orange;
+}
+
+.red{
+  left:5px;
+  width: 50px;
+  height: 50px;
+  background:OrangeRed;
+  box-shadow: 0px 0px 5px 4px OrangeRed;
+}
+
+.white{
+  left:15px;
+  bottom:-4px;
+  width: 30px;
+  height: 30px;
+  background:white;
+  box-shadow: 0px 0px 9px 4px white;
+}
+
+.circle{
+  border-radius: 50%;
+  position:absolute;
+}
+
+.blue{
+  width: 10px;
+  height: 10px;
+  left:25px;
+  bottom:-25px;
+  background: SlateBlue;
+  box-shadow: 0px 0px 15px 10px SlateBlue;
+}
+
+@keyframes flicker{
+  0%   {transform: rotate(-1deg);}
+  20%  {transform: rotate(1deg);}
+  40%  {transform: rotate(-1deg);}
+  60%  {transform: rotate(1deg) scaleY(1.04);}
+  80%  {transform: rotate(-2deg) scaleY(0.92);}
+  100% {transform: rotate(1deg);}
+}

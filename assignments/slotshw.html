@@ -7,6 +7,7 @@
 </head>
 
   <style>
+
     body{
       background: black;
     }
@@ -141,17 +142,26 @@
         height: 600;
       }
 
+      #won {
+        background: yellow;
+        text-align: center;
+        display: none;
+        position: fixed;
+        top: 0;
+      }
+
   </style>
 </head>
 
 
 <body>
 
-  <!-- The video -->
+<!-- The video -->
   <video autoplay muted loop id="Background">
     <source src="../images/blinking.mp4" type="video/mp4">
   </video>
 
+<!--LIGHTS-->
   <div id="bulb1" class="object"></div>
   <div id="bulb2" class="object"></div>
   <div id="bulb3" class="object"></div>
@@ -164,11 +174,12 @@
   <div id="bulb8" class="object"></div>
   <div id="bulb9" class="object"></div>
 
-  <div id="win">YOU WIN YAY</div>
+  <div id="won">WIN WIN WIN</div>
 
   <button>Press me!!!</button>
 
 
+<!--JAVA STARTS HERE -->
 <script src="../js/jquery.min.js"></script>
 <script type="text/javascript">
 
@@ -181,6 +192,7 @@
       var random1 = bulbs[Math.floor(Math.random() * bulbs.length)];
       var random2 = bulbs[Math.floor(Math.random() * bulbs.length)];
       var random3 = bulbs[Math.floor(Math.random() * bulbs.length)];
+
         console.log(random1);
         console.log(random2);
         console.log(random3);
@@ -189,11 +201,26 @@
         console.log("button clicked!");
 
       $(".object").removeClass("glow");
+
       $("#" + random1).addClass("glow");
       $("#" + random2).addClass("glow");
       $("#" + random3).addClass("glow");
+
+      //WIN STATE
+      if ((random1 == random2) && (random2 == random3)) {
+        // you win!
+        // all bulbs equal same number
+
+        console.log("you won!");
+        $('#won').fadeIn(5000);
+      }
+      else {
+        console.log("try again...")
+      }
+
     });
   });
+
 </script>
 
 </body>
