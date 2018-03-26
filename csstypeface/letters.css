@@ -1,0 +1,18 @@
+.letter {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 3em;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.filled {
+  background: url("../images/line.jpg");
+}
