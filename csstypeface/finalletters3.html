@@ -3,7 +3,7 @@
 
 
 <head>
-  <title>CSS Typeface Project</title>
+  <title>It's snowing</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="../csstypeface/finalletters.css">
 </head>
@@ -11,10 +11,10 @@
 
 <body>
 
-  <marquee behavior="scroll" direction="down" scrollamount="30" style="height:100%;">
+  <marquee behavior="scroll" direction="down" scrollamount="20" style="height:100%;">
 
     <!--TYPING WITH THE LETTERS-->
-    <div class="letters">RAIN ABOUT POEMS FEW A</div>
+    <div class="letters"></div>
 
     <!--LETTERS INVISIBLE-->
     <div class="letter-definition" data-character=" ">
@@ -2428,16 +2428,61 @@
       </div>
 
 <!-- JAVASCRIPT START -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
   $(document).ready(function(){
+
+    $.getJSON('https://freegeoip.net/json/?callback=?', function(location) {
+      console.table(location);
+
+      var city = location.city;
+      var lat = location.latitude;
+      var long = location.longitude;
+
+      console.log(city);
+
+      //Open Weather Map API
+      let API_KEY = 'e0a3dfaead51bbda58049371909fe21f';
+      function getWeather(latitude, longtitude) {
+        $.ajax({
+          url: 'http://api.openweathermap.org/data/2.5/weather',
+          data: {
+            lat: latitude,
+            lon: longtitude,
+            units: 'imperial',
+            APPID: API_KEY
+          },
+          success: data => {
+             console.log(data["main"]["temp"] + " F");
+             console.table(data);
+             console.log(data.weather[0].main);
+             console.log(data.wind.speed);
+             console.log(data.clouds);
+             console.log(data.main.pressure);
+             console.log(data.main.humidity);
+             console.log(data.sys.country);
+             console.log("Rain?" + data.rain);
+             console.log("clouds?" + data.clouds.all);
+          }
+        })
+      }
+      getWeather(lat, long);
+
+
+    // If yes
+    // Display some information
+
+    // If no
+    // Do something else
+
+
 
     //LETTER FUNCTIONS - ADAPTED FROM LAUREL SCHWULST'S JS FIDDLE
 
     $('.letters').each(function() {
-
+      var input = "Haven New in snowing it's outside go don't";
       var $letterWrapper = $(this);
-      var words = $letterWrapper.html().split(' ');
+      var words = input.toUpperCase().split(' ');
       var wordArray = [];
 
       for (var i = 0; i < words.length; i++) {
@@ -2451,7 +2496,7 @@
         );
       }
 
-    console.log(wordArray.join(getHTMLForCharacter(' ')));
+    // console.log(wordArray.join(getHTMLForCharacter(' ')));
 
       $letterWrapper.html(wordArray.join(getHTMLForCharacter(' ')));
     });
@@ -2461,30 +2506,9 @@
         	var characterHTML = '<div class="letter" data-character="' + character + '">' + characterDefinition + '</div>';
           return characterHTML;
         }
+    });
 
 
-      //ADAPTED FROM LAUREL SCHWULST'S ORGANISM WEATHER STAMP
-
-      //city name
-      var city = "New York";
-
-      //YAHOO information
-      var searchtext = "select item.condition from weather.forecast where woeid in (select woeid from geo.places (1) where text=' " + city + "') and u = 'c' "
-
-      $.getJSON("https://query.yahooapis.com/vs/public/yql?q=" + searchtext + "&format=json").success(function(data){
-        console.log(data);
-
-        //CELSIUS
-        var temp_c = data.query.results.channel.item.condition.temp;
-        console.log("temp in c is " + temp_c);
-
-        //NOW FARENHEIGHT
-        var temp_f = temp_c * (9/5) +32;
-        console.log("temp in f is " + temp_f);
-
-        $('#temp').html(city + "," + temp_f + "°F");
-
-      })
   });
 
 </script>

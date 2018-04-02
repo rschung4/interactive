@@ -1,5 +1,7 @@
 body {
-  background: #f0f8ff;
+  background: white;
+  height: 100vh;
+  margin: 0;
 }
 
 .letter-definition {
