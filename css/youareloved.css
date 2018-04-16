@@ -1,0 +1,172 @@
+body {
+  background:  lightpink;
+  /*lawngreen*/
+  height: 10000px;
+  width: 4000px:
+}
+
+/* Main Title */
+
+p.title {
+  color: white;
+  margin-left: 800px;
+  font-size: 0.8em;
+  user-select: none;
+  font-family: Times;
+}
+
+a#dyke {
+  color:  lightpink;
+  text-decoration: none;
+}
+
+a#dyke:hover{
+  color: red;
+}
+
+
+
+/* Second line of poem! */
+
+p.second {
+  font-family: "Palatino Linotype", "Book Antiqua", serif
+  color: grey;
+  font-size: 50px;
+  padding-left: 250px;
+  margin-right:250px;
+  padding-top:300px;
+}
+
+a#faggg:hover{
+  color:lightblue;
+  text-decoration: none;
+}
+
+a#faggg {
+  color: #7fff00;
+  /*pink*/
+  text-decoration: none;
+}
+
+
+
+/*Third line of poem*/
+
+p.third {
+  font-size: 0.8em;
+  font-family:"Courier New", Courier, monospace;
+  alignment: middle;
+  padding-top:200px;
+  color: red;
+}
+
+span {
+  color:#80ff80;
+  /*seafoam*/
+  background: #80ff80;
+}
+span:hover{
+  color:red;
+}
+
+a#leukemia:hover{
+  font-size: 40px;
+  color: #990000;
+  /*dark red*/
+  text-decoration: none;
+}
+
+a#leukemia{
+  color: #80ff80;/*seafoam*/
+  text-decoration: none;
+}
+
+
+/* -FOURTH LINE- LESSER EVILS */
+
+#lesser-evils{
+  color: white;
+  padding-top:10px;
+}
+
+#lesser-evils:hover{
+  color:#ff8080;
+}
+
+#lovers:hover{
+  color:pink;
+  text-align: center;
+}
+
+#lovers{
+  color:darkred;
+  text-decoration:none;
+  margin-left: 400px;
+}
+
+
+/*Fifth Line*/
+
+marquee{
+  padding-top: 150px;
+}
+
+h3{
+  color:#8080ff;
+  font-size: 1.5em;
+}
+
+a#welfare:hover{
+  color: red;
+}
+
+a#welfare{
+  color: #ff00ff;
+}
+
+
+/*Sixth Line - assault*/
+
+#welfare{
+  padding-top: 600px;
+  padding-left: 500px;
+}
+
+a#inlove{
+  color:#ff0066;
+}
+
+#respect{
+  color:#ff9900;
+}
+
+#pre-civil{
+  padding-top:50px;
+  padding-left:500px;
+  color:lightpink;
+}
+
+#civil{
+  font-size:0.8em;
+  padding-left: 500px;
+  padding-top:200px;
+  color:lawngreen;
+}
+
+#civil:hover{
+  font-size: 32px;
+  color:#ff6600;
+}
+
+
+/*CONCLUSION*/
+
+#conclusion{
+  color:#993399;
+  padding-left:900px;
+  padding-right:500px;
+}
+
+h5{
+  font-size: 0.7em;
+}
