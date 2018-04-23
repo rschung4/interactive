@@ -1,0 +1,36 @@
+body {
+  background-image: url("../images/digdig.jpg");
+}
+
+h1{
+  color: white;
+}
+
+div{
+  height: 100px;
+  width: 300px;
+}
+
+#rectangle {
+	width: 500px;
+	height: 800px;
+	background: rgba(0, 160, 235, 0.5);
+  margin: auto;
+  padding: 10px;
+}
+
+p {
+  padding: 1em;
+}
+
+.text {
+  padding: 1em;
+}
+
+#maintext{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+}
