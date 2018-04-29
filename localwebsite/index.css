@@ -1,9 +1,11 @@
 body {
   background-image: url("../images/digdig.jpg");
+  padding: 5em;
 }
 
 h1{
   color: white;
+  font-size: 20em;
 }
 
 div{
@@ -13,7 +15,7 @@ div{
 
 #rectangle {
 	width: 500px;
-	height: 800px;
+	height: 2000px;
 	background: rgba(0, 160, 235, 0.5);
   margin: auto;
   padding: 10px;
@@ -33,4 +35,13 @@ p {
   padding: 10px;
   text-align: center;
   font-size: 40px;
+}
+
+.input{
+  text-align: top;
+  padding-top: 0.2em;
+  padding-left: 0.2em;
+  position: absolute;
+  top: 9px;
+  left: 16px;
 }
